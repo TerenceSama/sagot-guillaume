@@ -3,7 +3,7 @@
  * @Date:   2017-08-28T23:29:53+02:00
  * @Email:  guillaume.sagot@epitech.eu
  * @Last modified by:   sagot_g
- * @Last modified time: 2017-08-29T17:57:48+02:00
+ * @Last modified time: 2017-08-29T18:45:55+02:00
  */
 body {
   width: 100%;
@@ -891,6 +891,10 @@ footer {
 }
 #skill-bar2 {
     font-size: 25px;
+}
+
+.btn-fl {
+    width: 9em;
 }
 
 .btn-github {
