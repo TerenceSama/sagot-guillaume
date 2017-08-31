@@ -3,7 +3,7 @@
  * @Date:   2017-08-28T23:29:53+02:00
  * @Email:  guillaume.sagot@epitech.eu
  * @Last modified by:   sagot_g
- * @Last modified time: 2017-08-30T12:45:17+02:00
+ * @Last modified time: 2017-08-31T10:31:02+02:00
  */
 body {
   width: 100%;
@@ -817,7 +817,7 @@ footer {
     display: block;
     padding: 20px;
     height: 100%;
-    padding-top: 10em;
+    padding-top: 3em;
 }
 
 .progress-bar {
@@ -843,7 +843,7 @@ footer {
     opacity: 1 !important;
     height: 33%;
     width: 100%;
-    background: url('../img/bike.jpg') no-repeat bottom center fixed;
+    background: url('../img/bike.jpg') no-repeat left bottom fixed;
     display: block;
 }
 
@@ -852,7 +852,7 @@ footer {
     opacity: 0.9 !important;
     height: 33%;
     width: 100%;
-    background: url('../img/sail.jpg') no-repeat bottom center fixed;
+    background: url('../img/sail.jpg') no-repeat center right fixed;
     display: block;
 }
 
@@ -881,9 +881,10 @@ footer {
 
 #Nicemap {
     /*margin-top: -10em;*/
-    height: 55%;
+    height: 30%;
     z-index: 6 !important;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 15px;
     color: white;
 }
 
