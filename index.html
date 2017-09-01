@@ -66,9 +66,6 @@
                         <a class="page-scroll" href="#formation">Formation</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#me">Moi</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#skill">Compétences</a>
                     </li>
                     <li>
@@ -97,8 +94,8 @@
 
         <section id="about" class="container">
             <hr class="featurette-divider">
-            <div class="featurette" >
-                <h2 class="featurette-heading">A propos</h2>
+            <div class="col-md-6">
+                <h2 style="margin-top: 20%;" class="featurette-heading">A propos</h2>
                 <div class="style-quote">
                     <blockquote class="style-quote-2">
                         <p>Actuellement étudiant en 3ème année du <strong>master 2 Epitech, en Expertise Informatique</strong> spécialisé dans les langages bas niveaux.</p>
@@ -108,262 +105,233 @@
                     </blockquote>
                 </div>
             </div>
-            <br><br>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-5">
-                        <a href="#formation" class="btn btn-circle page-scroll btn-default">
-                            <i class="fa fa-angle-double-down animated" style="color: black"></i>
-                        </a>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-image" style="height: 440px;">
+                        <img class="img-responsive" src="includes/img/me.jpg">
+
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span class="card-title" style="color: black">Guillaume SAGOT</span></li>
+                        <li class="list-group-item">Français</li>
+                        <li class="list-group-item">Nice, 06 200</li>
+                        <li class="list-group-item">20 ans</li>
+                        <li class="list-group-item">Permis A / B</li>
+                        <li class="list-group-item">
+                            <a onclick="window.open('https://www.linkedin.com/in/guillaume-sagot-365758bb/')" class="btn btn-default btn-lg btn-block">
+                                <i class="fa fa-linkedin fa-fw"></i>
+                                <span class="network-name">linkedin</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="formation" class="content-section text-center">
+            <div class="download-section formation">
+                <div class="container">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <br>
+                        <h2 class="flood">Formations et Expériences</h2>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section  class="content-section text-center">
-        <div class="download-section formation">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <br>
-                    <h2 class="flood">Formations et Expériences</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Juillet 2014</h4>
+                                    <h4 class="subheading"><strong>Baccalauréat</strong><br> Science Technologique du Management et de la Gestion</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lycée Henri Matisse - Baccalauréat technologique dans le domaine du management, et du marketing.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2014 - ...</h4>
+                                    <h4 class="subheading">Vice-président <br>Bureau des Etudiants Epitech</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Gestion du bureau des étudiants: organisation d'événement (WEI, LANS, etc), gestion de budgets.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Mai 2016</h4>
+                                    <h4 class="subheading">Hackathon Act'In Space</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Chef de groupe - Création d'un site web, et une ébauche d'application Andoid de partage communautaire d'informations maritime.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Juin 2016</h4>
+                                    <h4 class="subheading">Hackathon Pompier</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Réalisation d'une application web, dédier à la gestion des stocks par lecture de code barres.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Aout - Décembre 2016</h4>
+                                    <a onclick="window.open('http://www.greenleaf.fr')"><h4 class="subheading" style="color : #4CAF50">GreenLeaf</h4></a>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Stage de 5 mois réalisé dans l'entreprise GreenLeaf, spécialisé dans la domotique KNX.<br> Durant lequel j'ai effectué des tâches d'administration systém et réseau, ainsi que du développement web en PHP, et NodeJS.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>... - 2017</h4>
+                                    <h4 class="subheading">Epitech - 3ème année</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Epitech l'école de l'expertise informatique. Un cursus sur 5 ans d'apprentissage basé sur des projets, en autonomie ou en groupe.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
-
-    <div id="formation" class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <ul id="formation" class="timeline">
-                    <li>
-                        <div class="timeline-image">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Juillet 2014</h4>
-                                <h4 class="subheading"><strong>Baccalauréat</strong><br> Science Technologique du Management et de la Gestion</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lycée Henri Matisse - Baccalauréat technologique dans le domaine du management, et du marketing.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2014 - ...</h4>
-                                <h4 class="subheading">Vice-président <br>Bureau des Etudiants Epitech</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Gestion du bureau des étudiants: organisation d'événement (WEI, LANS, etc), gestion de budgets.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Mai 2016</h4>
-                                <h4 class="subheading">Hackathon Act'In Space</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Chef de groupe - Création d'un site web, et une ébauche d'application Andoid de partage communautaire d'informations maritime.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Juin 2016</h4>
-                                <h4 class="subheading">Hackathon Pompier</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Réalisation d'une application web, dédier à la gestion des stocks par lecture de code barres.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Aout - Décembre 2016</h4>
-                                <a onclick="window.open('http://www.greenleaf.fr')"><h4 class="subheading" style="color : #4CAF50">GreenLeaf</h4></a>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Stage de 5 mois réalisé dans l'entreprise GreenLeaf, spécialisé dans la domotique KNX.<br> Durant lequel j'ai effectué des tâches d'administration systém et réseau, ainsi que du développement web en PHP, et NodeJS.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>... - 2017</h4>
-                                <h4 class="subheading">Epitech - 3ème année</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Epitech l'école de l'expertise informatique. Un cursus sur 5 ans d'apprentissage basé sur des projets, en autonomie ou en groupe.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <section id="me" class="content-section text-center">
-        <div class="skill-section formation">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <br>
-                    <h2 class="flood" style="margin-top: 40px;">Qui suis-je</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="container" style="margin-top: 10em;">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-            <div class="card">
-                <div class="card-image">
-                    <img class="img-responsive" src="includes/img/me.jpg">
-                </div>
-
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><span class="card-title" style="color: black">Guillaume SAGOT</span></li>
-                    <li class="list-group-item">Français</li>
-                    <li class="list-group-item">Nice, 06 200</li>
-                    <li class="list-group-item">20 ans</li>
-                    <li class="list-group-item">Permis A / B</li>
-                    <li class="list-group-item">
-                        <a onclick="window.open('https://www.linkedin.com/in/guillaume-sagot-365758bb/')" class="btn btn-default btn-lg btn-block">
-                            <i class="fa fa-linkedin fa-fw"></i>
-                            <span class="network-name">linkedin</span>
-                        </a>
-                    </li>
-
-                </ul>
-            </div>
-        </div>
-        <div class="col-md-4"></div>
-    </section>
-
-    <section  class="content-section text-center">
-        <div class="skill-section formation">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <br>
-                    <h2 class="flood" style="margin-top: 40px;">Compétences</h2>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
-    <div id="skill"></div>
-    <div id="pinContainer" class="container">
-        <div id="pinContainer" class="row">
-            <section class="panel moose">
-                <div class="col-md-6"></div>
-                <div class="col-md-6 text-colum">
-                    <blockquote class="style-quote-2" style="margin-bottom: 3em;">
-                        <h2>MES COMPÉTENCES</h2>
+        <section id="skill" class="content-section text-center">
+            <div class="skill-section formation">
+                <div class="container">
+                    <div class="col-lg-8 col-lg-offset-2">
                         <br>
-                        <p>Mes formations, expériences et activités extra-professionnelles m’ont permis d’acquérir de solides compétences dans des domaines variés</p>
-                    </blockquote>
-
-                    <div id="skill-bar1" class="col-md-6">
-                        <h3><strong>Langages:</strong></h3>
-                        <br>
-                        <h4>Langage C / C++:
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
-                                    75%
-                                </div>
-                            </div>
-                        </h4>
-                        <h4>NodeJS | Go:
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                    70%
-                                </div>
-                            </div>
-                        </h4>
-                        <h4>HTML / CSS / JS:
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
-                                    85%
-                                </div>
-                            </div>
-                        </h4>
-                        <h4>PHP / Smarty:
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                                    80%
-                                </div>
-                            </div>
-                        </h4>
+                        <h2 class="flood" style="margin-top: 40px;">Compétences</h2>
                     </div>
+                </div>
+            </div>
+        </section>
 
-                    <div class="spacer s1"></div>
+        <div id="asset"></div>
+        <section class="panel moose">
+            <div class="col-md-6"></div>
+            <div class="col-md-6 text-colum">
+                <blockquote class="style-quote-2" style="margin-bottom: 3em; margin-top: 20em;">
+                    <h2>MES COMPÉTENCES</h2>
+                    <br>
+                    <p>Mes formations, expériences et activités extra-professionnelles m’ont permis d’acquérir de solides compétences dans des domaines variés</p>
+                </blockquote>
 
-                    <div id="skill-bar2" class="col-md-6">
-                        <h3><strong>Administration système et réseau:</strong></h3>
-                        <br>
-                        <h4>Linux:
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
-                                    85%
-                                </div>
+                <div id="skill-bar1" class="col-md-6">
+                    <h3><strong>Langages:</strong></h3>
+                    <br>
+                    <h4>Langage C / C++:
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                75%
                             </div>
-                        </h4>
-                        <h4>Cisco | Private Network:
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">
-                                    55%
-                                </div>
+                        </div>
+                    </h4>
+                    <h4>NodeJS | Go:
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                70%
                             </div>
-                        </h4>
-                        <h4>MySQL:
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
-                                    85%
-                                </div>
+                        </div>
+                    </h4>
+                    <h4>HTML / CSS / JS:
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                                85%
                             </div>
-                        </h4>
-                    </div>
-<!--
-                    <a id="animate1" href="#link" class="btn btn-circle page-scroll btn-default" style="background: #00BCD4;">
-                        <i class="fa fa-angle-double-down animated" style="color: white"></i>
-                    </a>
-                    <div id="trigger1" class="spacer s0"></div>
+                        </div>
+                    </h4>
+                    <h4>PHP / Smarty:
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                80%
+                            </div>
+                        </div>
+                    </h4>
+                </div>
 
-                    <script>
-                    var controller = new ScrollMagic.Controller();
-                    var scene = new ScrollMagic.Scene({triggerElement: "#trigger1"})
-                    .setClassToggle("#animate1", "zap")
-                    .addIndicators({name: "animate1"})
-                    .addTo(controller);
-                    </script> -->
+                <div class="spacer s1"></div>
 
+                <div id="skill-bar2" class="col-md-6">
+                    <h3><strong>Administration système et réseau:</strong></h3>
+                    <br>
+                    <h4>Linux:
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                                85%
+                            </div>
+                        </div>
+                    </h4>
+                    <h4>Cisco | Private Network:
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">
+                                55%
+                            </div>
+                        </div>
+                    </h4>
+                    <h4>MySQL:
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                                85%
+                            </div>
+                        </div>
+                    </h4>
                 </div>
             </section>
-            <section  class="panel night">
+            <section id="link" class="panel night">
+                <div class="col-md-6 last-pan">
+
+                    <div class="col-md-8">
+                        <blockquote class="style-quote-2 text-last" style="margin-top: 40px;">
+                            <div class="spacer s2"></div>
+                            <br>
+                            <h2>Loisirs</h2>
+                        </blockquote>
+                    </div>
+                    <br>
+                    <div class="pic-last1"></div>
+                    <br>
+                    <div class="pic-last2"></div>
+                </div>
+
+
                 <div class="last-pan col-md-6">
-                    <iframe id="Nicemap"src="https://snazzymaps.com/embed/12499" width="100%" height="100%" style="border:none;"></iframe>
+                    <iframe id="Nicemap"src="https://snazzymaps.com/embed/12499" width="100%" height="100%" style="border:none;margin-top: 15em;"></iframe>
 
                     <div id="link">
                         <blockquote id="talk2" class="style-quote-2">
@@ -411,56 +379,39 @@
                         </blockquote>
                     </div>
                 </div>
-                <div class="col-md-6 last-pan">
-
-                    <div class="col-md-8">
-                        <blockquote class="style-quote-2 text-last" style="margin-top: 40px;">
-                            <div class="spacer s2"></div>
-                            <h2>Loisirs</h2>
-                        </blockquote>
-                    </div>
-                    <div class="col-md-4">
-                        <a id="animate1" href="#skill" class="btn btn-circle page-scroll btn-default" style="background: #00BCD4;">
-                            <i class="fa fa-angle-double-right animated" style="color: white"></i>
-                        </a>
-                    </div>
-                    <br>
-                    <div class="pic-last1"></div>
-                    <br>
-                    <div class="pic-last2"></div>
-                </div>
             </section>
-        </div>
-    </div>
-    <script>
-    $(function () {
-        var controller = new ScrollMagic.Controller();
-        var wipeAnimation = new TimelineMax()
-        .fromTo("section.panel.night", 2, {x: "-100%"}, {x: "0%", ease: Linear.easeNone});
-        new ScrollMagic.Scene({
-            triggerElement: "#pinContainer",
-            triggerHook: "onLeave",
-            duration: "300%"
-        })
-        .setPin("#pinContainer")
-        .setTween(wipeAnimation)
-        .addIndicators()
-        .addTo(controller);
-    });
-    </script>
-    <footer>
-        <div id="end" class="container text-center">
-            Copyright &copy; Guillaume SAGOT 2017
-        </div>
-    </footer>
-    <script src="includes/vendor/jquery/jquery.js"></script>
-    <script src="includes/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="includes/vendor/bootstrap/js/bootstrap.js"></script>
-    <script src="includes/popper/popper.js"></script>
-    <script src="includes/js/tracking.js"></script>
-    <script src="includes/js/grayscale.js"></script>
 
-</body>
+            <script>
+            $(function () {
+                var controller = new ScrollMagic.Controller({
+                    globalSceneOptions: {
+                        triggerHook: 'onLeave'
+                    }
+                });
+                var slides = document.querySelectorAll("section.panel");
+                for (var i=0; i<slides.length; i++) {
+                    new ScrollMagic.Scene({
+                        triggerElement: slides[i]
+                    })
+                    .setPin(slides[i])
+                    .addIndicators()
+                    .addTo(controller);
+                }
+            });
+            </script>
+            <footer>
+                <div id="end" class="container text-center">
+                    Copyright &copy; Guillaume SAGOT 2017
+                </div>
+            </footer>
+            <script src="includes/vendor/jquery/jquery.js"></script>
+            <script src="includes/vendor/bootstrap/js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+            <script src="includes/vendor/bootstrap/js/bootstrap.js"></script>
+            <script src="includes/popper/popper.js"></script>
+            <script src="includes/js/tracking.js"></script>
+            <script src="includes/js/grayscale.js"></script>
 
-</html>
+        </body>
+
+        </html>

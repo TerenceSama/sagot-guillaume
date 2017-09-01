@@ -3,7 +3,7 @@
  * @Date:   2017-08-28T23:29:53+02:00
  * @Email:  guillaume.sagot@epitech.eu
  * @Last modified by:   sagot_g
- * @Last modified time: 2017-08-31T10:31:02+02:00
+ * @Last modified time: 2017-09-01T14:40:17+02:00
  */
 body {
   width: 100%;
@@ -525,7 +525,6 @@ blockquote.style-quote-1 {
 }
 
 blockquote.style-quote-2 {
-  padding-left: 70px;
   padding-top: 2px;
   padding-bottom: 2px;
   margin: 5px;
@@ -740,8 +739,6 @@ iframe {
 .panel {
     height: 100%;
     width: 100%;
-    position: absolute;
-    min height : 100%;
 }
 
 .moose {
@@ -849,10 +846,10 @@ footer {
 
 .pic-last2 {
     z-index: 6;
-    opacity: 0.9 !important;
+    opacity: 1 !important;
     height: 33%;
     width: 100%;
-    background: url('../img/sail.jpg') no-repeat center right fixed;
+    background: url('../img/sail.jpg') no-repeat left bottom fixed;
     display: block;
 }
 
@@ -860,15 +857,6 @@ footer {
     opacity: 1;
     color: white;
 }
-
-#animate1 {
-    transition: transform 0.3s ease-out;
-}
-.zap {
-    transform: scale(2.5, 0);
-    display: none;
-}
-
 
 #talk {
     margin-top: 30px;
